@@ -6,7 +6,7 @@ The aim of this dashboard is to provide a comprehensive analysis of Adani Enterp
 ## Dashboard Image:
 ![Dashboard](Dashboard)
 
-## Download PBIX File:
+## View Power BI Dashboard File:
 [View Dashboard](https://app.powerbi.com/view?r=eyJrIjoiODE3YzhlZWQtMmExOC00NWRmLTlhNzMtMTBhNDEyZTRkODY1IiwidCI6IjM0YmQ4YmVkLTJhYzEtNDFhZS05ZjA4LTRlMGEzZjExNzA2YyJ9)
 ## Key Features and Data Insights:
 
