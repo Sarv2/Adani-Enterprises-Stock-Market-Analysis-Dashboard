@@ -1,30 +1,60 @@
-# Pizza Sales Analysis
+# Project Overview: Adani Enterprises Stock Market Analysis Dashboard
 
-This project analyzes pizza sales with a detailed Power BI dashboard showcasing revenue, order trends, and sales performance by category and size. It highlights key metrics like busiest days, average order value, and top-selling categories, offering actionable insights to optimize strategies, boost sales, and enhance customer satisfaction.
+## Objective:
+The aim of this dashboard is to provide a comprehensive analysis of Adani Enterprises' stock performance. It is designed to assist investors, analysts, and other stakeholders in identifying stock trends, market movements, and trading volumes for strategic decision-making.
 
-## Problem Statement
+## Key Features and Data Insights:
 
-We need to analyze key indicators for our pizza sales data to gain insights into our business performance. Specifically, we want to calculate the following metrics:
+### Summary Cards:
+- Average of 52W High Price: 3.61K
+- Average of 52W Low Price: 1.85K
+- Total Volume Traded: 595M
+- Cumulative Open Price: 755.02K
+- Cumulative Close Price: 752.96K
 
-### KPIs
-1. **Total Revenue**: The sum of the total price of all pizza orders.
-2. **Average Order Value**: The average amount spent per order, calculated by dividing the total revenue by the total number of orders.
-3. **Total Pizzas Sold**: The sum of the quantities of all pizzas sold.
-4. **Total Orders**: The total number of orders placed.
-5. **Average Pizzas Per Order**: The average number of pizzas sold per order, calculated by dividing the total number of pizzas sold by the total number of orders.
+### Quarterly Aggregates:
+- Quarterly summary of 52W Highs, 52W Lows, and Volume:
+  - Q3: Avg 52W High: 0.14M, Avg 52W Low: 0.24M
+  - Q4: Avg 52W High: 0.13M, Avg 52W Low: 0.23M
+  - Q1: Avg 52W High: 0.08M, Avg 52W Low: 0.22M
+  - Q2: Avg 52W High: 0.12M, Avg 52W Low: 0.21M
 
-### Charts Requirement
-We would like to visualize various aspects of our pizza sales data to gain insights and understand key trends. We have identified the following requirements for creating charts:
-1. **Daily Trend for Total Orders**: Create a bar chart that displays the daily trend of total orders over a specific time period. This chart will help us identify any patterns or fluctuations in order volumes on a daily basis.
-2. **Monthly Trend for Total Orders**: Create a line chart that illustrates the hourly trend of total orders throughout the day. This chart will allow us to identify peak hours or periods of high order activity.
-3. **Percentage of Sales by Pizza Category**: Create a pie chart that shows the distribution of sales across different pizza categories. This chart will provide insights into the popularity of various pizza categories and their contribution to overall sales.
-4. **Percentage of Sales by Pizza Size**: Generate a pie chart that represents the percentage of sales attributed to different pizza sizes. This chart will help us understand customer preferences for pizza sizes and their impact on sales.
-5. **Total Pizzas Sold by Pizza Category**: Create a funnel chart that presents the total number of pizzas sold for each pizza category. This chart will allow us to compare the sales performance of different pizza categories.
-6. **Top 5 Best Sellers by Revenue, Total Quantity, and Total Orders**: Create a bar chart highlighting the top 5 best-selling pizzas based on the Revenue, Total Quantity, and Total Orders. This chart will help us identify the most popular pizza options.
-7. **Bottom 5 Best Sellers by Revenue, Total Quantity, and Total Orders**: Create a bar chart showcasing the bottom 5 worst-selling pizzas based on the Revenue, Total Quantity, and Total Orders. This chart will enable us to identify underperforming or less popular pizza options.
+### Monthly Totals:
+- Monthly averages for 52W Highs, 52W Lows, and Total Volumes:
+  - January: Total Volume: 78M
+  - June: Total Volume: 90M
+  - November: Total Volume: 108M (highest)
+  - April: Total Volume: 22M (lowest)
 
-### Software Used
-1. **MS Office/Excel**: Version 2021
-2. **MS SQL Server**: 19.0
-3. **SQL Server Management Studio**: 19.0.20209.0
-4. **Power BI**: June 2023 Version
+### Daily Totals:
+- Daily fluctuations in stock prices:
+  - Daily Open Price Range: 15K–40K
+  - Daily Close Price Range: 15K–40K
+
+### Volume by Month:
+- Monthly trading volume analysis (Top 3 months):
+  - November: 108M
+  - June: 90M
+  - January: 78M
+
+### Daily Trends by Weekdays:
+- Key weekly trends for 52W Highs, 52W Lows, Open, and Close Prices:
+  - Highest average values observed on Tuesday and Friday.
+  - Lowest activity recorded on Saturday.
+
+### Data Sources:
+- Historical stock data obtained from reputable financial platforms like NSE/BSE or public financial datasets.
+
+### Visualizations:
+- KPIs for quick overviews.
+- Bar Charts for quarterly and monthly summaries.
+- Line Graphs for daily performance tracking.
+- Horizontal Bar Chart for volume analysis by month.
+
+### Technologies and Tools:
+- Power BI: To build interactive and visually appealing dashboards.
+- Microsoft Excel: For initial data cleaning and preparation.
+- SQL: For querying structured data, if applicable.
+
+## Outcome:
+This dashboard provides a dynamic and user-friendly interface to analyze the stock performance of Adani Enterprises. It empowers users with actionable insights into trends, trading behaviors, and performance benchmarks, enabling data-driven investment decisions.
